@@ -1,0 +1,184 @@
+/*--- Fuentes importadas ---*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+/*--- Estilos principales ---*/
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161a1d;
+}
+
+/*---Estilos pagina principal de Administrador---*/
+#titulo-Principal{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    color: #d3d3d3;
+    padding: 15px;
+}
+
+
+#division-Accion{
+    background-color: #a4161a;
+    border-radius: 15px;      
+    width: 300px;
+    height: 300px;  
+    text-align: center;
+    float: left;
+    margin-left: 100px ;
+    margin-right: 100px ;
+}
+
+#division-Accion2{
+    background-color: #a4161a;
+    border-radius: 15px;      
+    width: 300px;
+    height: 300px;  
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 600px ;
+    margin-right: 100px ;
+}
+
+#nombre-Accion{    
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    color: #d3d3d3;
+}
+
+#btn-Accion{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/*---Estilos paginas Insertar---*/
+#division-Formularios{
+    padding: 10px;
+}
+
+#formulario-Ins{
+    background-color: #941b0c;
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;    
+}
+
+#formulario-Ins p{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+}
+
+#formulario-Ins input.texto{
+    font-family: 'Roboto', sans-serif;    
+    font-size: 15px;
+    width: 300px;
+    height: 23px;
+}
+
+#formulario-Ins textarea.texto{
+    font-family: 'Roboto', sans-serif;    
+    font-size: 13px;
+}
+
+#boton-Guardar{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #941b0c;
+    border: 3px solid #161a1d;
+    color: white;
+    border-radius: 10px;
+    width: 175px;
+    height: 55px;
+    transition-duration: 0.4s; 
+    text-decoration: none;   
+    appearance: button;
+}
+
+#boton-Guardar:hover{
+    background-color: #161a1d;
+}
+
+#division-Buscar{
+    background-color: #941b0c;
+    text-align: center;
+    width: 350px;
+    height: 185px;
+    border-radius: 10px;
+}
+
+#division-Buscar h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #eeeeee;
+}
+
+#division-Buscar input.texto{
+    font-family: 'Roboto', sans-serif;    
+    font-size: 15px;
+    width: 300px;
+    height: 23px;
+}
+
+#boton-Buscar{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 500;
+    font-size: 22px;
+    background-color: #941b0c;
+    border: 3px solid #161a1d;
+    color: white;
+    border-radius: 10px;
+    width: 175px;
+    height: 55px;
+    transition-duration: 0.4s; 
+    text-decoration: none;   
+    appearance: button;
+}
+
+#titulo-Secundario{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 27px;
+    color: #d3d3d3;
+}
+
+#boton-Buscar:hover{
+    background-color: #161a1d;
+}
+
+#tabla-Buscar{
+    border-collapse: collapse;
+    width: 85%;      
+    border-radius: 5px;
+}
+
+#tabla-Buscar td, #tabla-Buscar th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#tabla-Buscar th {
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #941b0c;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+#tabla-Buscar tr:nth-child(even){
+    background-color: #81afa5;
+}
+
+#tabla-Buscar tr:nth-child(odd){
+    background-color: #99c6ba;
+}
+
+#tabla-Buscar tr:hover{
+    background-color: #588b7e;
+}

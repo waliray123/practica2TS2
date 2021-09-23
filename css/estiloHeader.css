@@ -1,0 +1,63 @@
+/*--- Fuentes importadas ---*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto&display=swap');
+/*---Usos de las fuentes de esta manera ---*/
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+/*---Estios de Header---*/
+
+#main-header{    
+    padding: 10px;
+    background: #0b090a;
+    color: white;
+    height: 60px;
+}
+
+#logo-header {
+    background-color: #f5f3f4;
+    border-radius: 250px;
+    width: 50px;
+    height: 50px;
+    float: left;    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto-header{
+    font-family: 'Alfa Slab One', cursive;
+    color: #f5f3f4; 
+    float: left;   
+    font-size: 40px;
+    letter-spacing: 2pt;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
+nav ul li {
+    font-family: 'Alfa Slab One', cursive;
+    display: inline-block;
+    line-height: 60px;
+}
+
+nav ul li a {
+    color: #d3d3d3;
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #f5f3f4;    
+    background: #660708;
+}
